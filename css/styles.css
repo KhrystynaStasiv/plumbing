@@ -1,0 +1,75 @@
+*,
+
+body {
+     font-family: 'Poppins', sans-serif;
+    color: #FFF;
+}
+ul {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+    filter: none;
+    font-style: normal;
+}
+h1, h2, h3, h4, h5, h6, p {
+    margin: auto;
+    filter: none;
+}
+img {
+    display: block;
+    max-width: 100%;
+    filter: none;
+}
+
+
+.hero {
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0.27) 100%), url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+.container {}
+
+.hero-container {
+    display: flex;
+}
+
+.navigation {
+    display: flex;
+}
+
+.header-logo {}
+
+.logo-1 {
+    color: #FFF;
+        font-size: 64px;
+        font-weight: 700;
+        line-height: normal;
+}
+
+.logo-2 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu-item {
+    color: #FFF;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.address {
+    display: flex;
+}
+
+.address-list {
+    display: flex;
+}
+
+.list-item {}
