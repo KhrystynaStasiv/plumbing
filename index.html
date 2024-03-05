@@ -8,12 +8,15 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+        integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 
-<body>
-    <header class="hero">
-        <div class="container hero-container">
+<body class="body">
+    <header class="header">
+        <div class="container header-container">
         <nav class="navigation">
             <ul class="header-logo">
                 <a class="logo-1" href="./index.html">DC</a>
@@ -26,42 +29,52 @@
                 <li><a class="menu-item" href="" target="_blank">Contact</a></li>
             </ul>
         </nav>
-    <address class="address">
-        <ul class="address-list">
-            <img class="list-item" src="./images/el_phone-alt.svg" alt="phone icon" width="64" />
-            <p>Contact Me!</p>
-            <a class="list-item" href="tel:07584659254">07584659254</a>
-        </ul>
-    </address>
+        <address class="address">
+            <ul class="address-list">
+                <li><a class="address-item" href="mailto:info@gmail.com">info@gmail.com</a></li>
+                <li><a class="address-item" href="tel:07584659254">07584659254</a></li>
+            </ul>
+         </address>
         </div>
     </header>
     
-    <main>
-        <section>
-            <h1>We provide effective Plumbing Solutions</h1>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Commodo quam nulla parturient fringilla nunc dignissim
-                adipiscing magna netus. Proin ultricies eget nisl ut morbi mattis non. Quis nisi, nunc mauris ut et hendrerit turpis
-                placerat. Blandit sed cursus vitae, purus. Id ut cursus quis et ipsum quam aenean nulla egestas. Ultricies varius
-                blandit amet purus a faucibus. Id maecenas ullamcorper malesuada tellus faucibus.
-            </p>
-            <button type="button">Get a Quote</button>
-        </section>
+<main>
+    <section class="home-page">
+    <div class="container hero-container">
+        <h1 class="hero-tittle">We provide effective Plumbing Solutions</h1>
+        <p class="hero-text">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Commodo quam nulla parturient fringilla nunc dignissim
+        adipiscing magna netus. Proin ultricies eget nisl ut morbi mattis non. Quis nisi, nunc mauris ut et hendrerit turpis
+        placerat. Blandit sed cursus vitae, purus. Id ut cursus quis et ipsum quam aenean nulla egestas. Ultricies varius
+        blandit amet purus a faucibus. Id maecenas ullamcorper malesuada tellus faucibus.
+        </p>
+        <button type="button" class="hero-button">Get a Quote</button>
+    </div>
+    </section>
 
-        <section>
-            <h4>About Us</h4>
-            <h2>Who we are and what we do</h2>
-            <p>
+    <section class="about-us">
+        <div class="container container-about-us">
+            <h4 class="about-tittle">About Us</h4>
+            <h2 class="about-second-tittle">Who we are and what we do</h2>
+            <p class="about-text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper praesent dictumst id ornare lorem enim. Vitae, viverra
                 dui sed cras nibh ornare. Eget cras proin amet tempus rhoncus a, ultrices. Nulla arcu commodo, a ornare nullam bibendum
                 euismod ornare convallis. Pharetra nunc volutpat justo id viverra.
             </p>
-            <button type="button">Find out more...</button>
-            <img src="./images/plumber.svg" alt="Plumber" width="390" />
-        </section>
+            <button type="button" class="about-us-button">Find out more...</button>
+            <img class="about-us-img" src="./images/about-us-img-1x.jpg" alt="Plumber" width="390" height="386" />
+            <div class="reactangle-2">
+             <h3 class="reactangle-tittle">Have an emergency?</h3>
+             <p class="reactangle-text">
+                Call this number and out 24/7 team will assist you
+            </p>
+            <a class="reactangle-phone" href="tel:078569856945">078569856945</a>
+            </div>
+        </div>
+    </section>
 
         <section>
-            <h3>Browse Our Work</h3>
+            <h>Browse Our Work</h>
             <aside>
                 
             </aside>
