@@ -289,3 +289,71 @@ img {
     margin-bottom: 0;
     
 }
+
+/*============= Brouse our work ================*/
+
+.gallery {
+    position: relative;
+    background:url(../images/section-3-pic.jpg), lightgray 0px -562.945px / 100% 180.034% no-repeat;
+}
+.gallery-container {
+    width: 1920px;
+    height: 804px;
+}
+.gallery-tittle-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 105px;
+    background: rgba(244, 246, 248, 0.86);
+    display: flex;
+    align-items: center;
+}
+.gallery-tittle {
+    color: #454545;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: normal;
+    padding-left: 380px;
+    padding-top: 26px;
+    padding-bottom: 25px;
+}
+.gallery-image {
+    width: 100%;
+    height: 100%;
+}
+.aside {
+    width: 133px;
+    height: 699px;
+    float: left;
+    background: rgba(0, 0, 0, 0.39);
+    padding-left: 15px;
+    padding-right: 15px;
+    position: absolute;
+    bottom: 0;
+    /* left: 0; */
+    display: flex;
+    justify-content: center;
+}
+.previous-pic {
+    left: 0;
+}
+.next-pic {
+    right: 0;
+}
+.aside-button {
+    width: 103px;
+    background-color: transparent;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: normal;
+    border: none;
+    cursor: pointer;
+}
+.aside-button:hover {
+    color: gray;
+}
+
