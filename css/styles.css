@@ -332,7 +332,6 @@ img {
     padding-right: 15px;
     position: absolute;
     bottom: 0;
-    /* left: 0; */
     display: flex;
     justify-content: center;
 }
@@ -343,7 +342,6 @@ img {
     right: 0;
 }
 .aside-button {
-    width: 103px;
     background-color: transparent;
     color: #FFF;
     font-family: Poppins;
@@ -357,3 +355,4 @@ img {
     color: gray;
 }
 
+/*============= Services ==========*/
