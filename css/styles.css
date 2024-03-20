@@ -64,7 +64,7 @@ img {
     margin-right: 120px;
 }
 .logo-1 {
-    color: #000;
+    color: #FFF;
     font-size: 64px;
     font-weight: 700;
     line-height: normal;
@@ -73,7 +73,7 @@ img {
     font-size: 24px;
     font-weight: 700;
     line-height: normal;
-    color: #000;
+    color: #FFF;
 }
 .menu {
     display: flex;
@@ -84,7 +84,7 @@ img {
     padding-bottom: 36px;
 }
 .menu-item {
-    color: #000;
+    color: #FFF;
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
@@ -100,7 +100,7 @@ img {
     padding-bottom: 36px;
 }
 .address-item {
-    color: #000;
+    color: #FFF;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
@@ -109,24 +109,25 @@ img {
 }
 .address-item:hover,
 .address-item:focus {
-    color:#3957FF;
+    color: #1C3693;
 }
 
 /*===========HOME PAGE=============*/
 .home-page {
-    padding-top: 142px;
-    padding-bottom: 212px;
-    background-image: url(../images/facets.jpg), linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(255, 255, 255, 1) 50%, rgba(0, 0, 0, 1) 100%);
-    /* background-image: url(../images/back-ground-1x.jpg); */
+    padding-top: 200px;
+    padding-bottom: 180px;
+    background: #2E2F42;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/facets.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
+
 @media screen and (min-device-pixel-ratio: 2),
 (min-resolution: 192dpi),
 (min-resolution: 2dppx) {
     .home-page {
-        background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.77) 59.44%, #000 100%);
+        background: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7));
     }
 }
 .hero-container {
@@ -137,7 +138,7 @@ img {
 .hero-tittle {
     width: 894px;
     color: #FFF;
-    font-size: 80px;
+    font-size: 40px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -160,8 +161,7 @@ img {
     width: 189px;
     height: 64px;
     border-radius: 7px;
-    background: #3957FF;
-    box-shadow: 0px 20px 100px 0px #1C3693;
+    background-color:#1C3693;
     color: #FFF;
     font-family: Poppins;
     font-size: 16px;
@@ -176,15 +176,15 @@ img {
 }
 .hero-button:hover,
 .hero-button:focus {
-    background-color: #1C3693;
+    background-color: rgb(160, 30, 43);
 }
+
 /*============ABOUT US==============*/
 .about-us {
     padding-top: 104px;
     padding-bottom: 106px;
+    background-color: #F4F6F8;
 }
-.container {}
-
 .container-about-us {
     max-width: 1230px;
     position: relative;
@@ -222,8 +222,7 @@ img {
     width: 189px;
     height: 64px;
     border-radius: 7px;
-    background: #3957FF;
-    box-shadow: 0px 20px 100px 0px #1C3693;
+    background: #1C3693;
     color: #FFF;
     font-family: Poppins;
     font-size: 16px;
@@ -255,8 +254,7 @@ img {
     right: 0;
     transform: translateY(-95%);
     border-radius: 7px;
-    background: #3957FF;
-    box-shadow: 0px 50px 100px 0px rgba(0, 0, 0, 0.40), 0px 50px 100px 0px rgba(45, 91, 255, 0.20);
+    background: #1C3693;
     display: flex;
     flex-wrap: wrap;
     row-gap: 16px;
@@ -363,8 +361,9 @@ img {
 .services {
     padding-top: 37px;
     padding-bottom: 152px;
-    background: #F4F6F8;
+    background-color: #F4F6F8;
 }
+
 .container-services {
     width: 1232px;
 }
@@ -395,18 +394,45 @@ img {
 .services-list-item {
     width: 308px;
     height: 410px;
+    padding: 46px 34px 41px 43px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color: #FFF;
+}
+.services-item-blue {
+    background-color: #1C3693;
+}
+.icon-element-background {
+    position: relative;
+    width: 67px;
+    height: 67px;
+    background: #1C3693;
+    border-radius: 50%;
+}
+.icon-element-background-3 {
+    position: relative;
+    width: 67px;
+    height: 67px;
     background: #FFF;
+    border-radius: 50%;
 }
-.item-icon {
+.icon-element {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(50%, 50%);
+    width: 33px;
+    height: 33px;
+    fill: #FFF;
+    stroke: #FFF;
+}
 
-}
 .item-container {
     width: 233px;
     display: flex;
     flex-direction: column;
     gap: 13px;
-    padding-left: 37px;
-    padding-right: 38px;
 }
 
 .item-tittle {
@@ -414,11 +440,109 @@ img {
     font-size: 32px;
     font-weight: 500;
     line-height: normal;
+    margin-bottom: 0;
+    margin-top: 0;
 }
-
+.item-tittle-3 {
+    color: #FFF;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 0;
+    margin-top: 0;
+}
 .item-text {
     color: #000;
     font-size: 15px;
     font-weight: 300;
+    line-height: normal;
+    margin: 0 auto;
+}
+.item-text-3 {
+    color: #FFF;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: normal;
+    margin: 0 auto;
+}
+/*================ Testimonial =================*/
+.testimonial {
+    padding-top: 45px;
+    padding-bottom: 100px;
+    /* opacity: 0.7; */
+    background: #000;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),url(../images/testimonial.pic.jpg);
+}
+.testimonial-container {
+    display: flex;
+    flex-direction: column;
+    gap: 41px;
+    text-align: center;
+}
+
+.testimonial-tittle {
+    color: #FFF;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.testimonial-text {
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+/*============ Recent projects ===============*/
+.recent-projects {
+    padding-top: 67px;
+    padding-bottom: 53px;
+}
+
+.recent-projects-container {
+    display: flex;
+    flex-direction: column;
+    gap: 43px;
+}
+
+.projects-tittle {
+    color: #0E0E0E;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.recent-projects-list {
+    display: flex;
+    flex-direction: row;
+}
+
+.projects-list-item {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 18px;
+    width: calc((100% - 85px*2) / 3);
+    padding: 15px;
+}
+
+.description-container {
+
+}
+
+.description-tittle {
+    color: #000;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.description-text {
+    color: #000;
+    font-size: 12px;
+    font-weight: 400;
     line-height: normal;
 }
